@@ -1,0 +1,16 @@
+server:
+  port: 7070
+
+image:
+  path: C:\Users\User\Desktop\fileuploads\
+  url: http://localhost:7070/image/download/
+
+# DB
+spring:
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/springwebsites
+  jpa:
+    hibernate:
+      ddl-auto: update
