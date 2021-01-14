@@ -50,4 +50,6 @@ public class FilesUploadController {
         httpHeaders.set("Content-Disposition", "attachment; filename="+filesUpload.getName()); // best for download
         return new ResponseEntity<InputStreamResource>(inputStreamResource,httpHeaders, HttpStatus.OK);
     }
+
+
 }

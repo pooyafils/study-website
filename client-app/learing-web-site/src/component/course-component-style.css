@@ -1,0 +1,14 @@
+@media only screen and ( min-width:850px) {
+    .autosizing  {
+width: 600px     }
+
+}
+
+.imgs{
+    height : 400px ;
+}
+
+.spacreing{
+    margin-top: 50px;
+    height: 600px;
+}
