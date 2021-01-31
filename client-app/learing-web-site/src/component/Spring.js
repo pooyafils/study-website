@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
-import logo from '../image/springboot-image.jpg';
+import logo from '../image/spring 1.jpg';
 import './course-component-style.css'
 const springboot=()=>{
 
@@ -10,17 +10,17 @@ const springboot=()=>{
 <div>
         <div className="container autosizing h-auto  mt-2    ">
             <div className="card">
-                <div className="card-header text-center">دوره اموزشی اسپرینگ بوت</div>
+                <div className="card-header text-center">دوره اموزشی اسپرینگ </div>
                 <img className="card-img-top img mt-2    " src={logo}/>
                 <div className="card-body">
                     <h4 className="card-title text-center">عنوان دوره </h4>
                     <p className="card-text text-right ">مطلالب برای توضیحات</p>
-                    <a className="btn btn-info btn-block mt-2 " href="http://localhost:7070/download/21">دانلود سرفصل های این دوره </a>
+                    <a className="btn btn-info btn-block mt-2 " href="http://localhost:7070/download/23">دانلود سرفصل های این دوره </a>
                     <button className="btn btn-primary d-block m-3" data-toggle="collapse"
-                            data-target="#collapse-btn-1">ثبت نام این دوره
+                            data-target="#collapse-btn-12">ثبت نام این دوره
                     </button>
 
-                    <div className="collapse mb-5" id="collapse-btn-1">
+                    <div className="collapse mb-5" id="collapse-btn-12">
                         <div className="card">
                             <div className="card-body">
                                لطفا با شماره 0912

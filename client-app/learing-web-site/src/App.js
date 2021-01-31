@@ -2,6 +2,13 @@ import React,{Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
  import  SpringBoot from './component/SpringBoot';
+import  Spring from './component/Spring';
+import  Javase from './component/Javase';
+import  Javaee from './component/Javaee';
+import  Springcloud from './component/SpringColud';
+import  Mongo from './component/Mongo';
+
+
 class  App extends Component{
     render() {
 
@@ -30,9 +37,15 @@ class  App extends Component{
 
    </nav>
             <SpringBoot/>
-
-
-          </div>
+            <Spring/>
+<Javase/>
+<Javaee/>
+<Springcloud/>
+<Mongo/>
+            <footer className="footer  text-white bg-dark">
+                <div className="text-center mt-3">&copy; تمامی حقوق محفوظ هست </div>
+            </footer>
+        </div>
 
 
     );
